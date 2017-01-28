@@ -1,0 +1,30 @@
+{
+  "name": "hyperlog-reduce",
+  "description": "reduce function over a hyperlog",
+  "author": "Stephen Whitmore <sww@eight.net>",
+  "version": "0.0.0",
+  "repository": {
+    "url": "git://github.com/noffle/hyperlog-reduce.git"
+  },
+  "homepage": "https://github.com/noffle/hyperlog-reduce",
+  "bugs": "https://github.com/noffle/hyperlog-reduce/issues",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js",
+    "lint": "standard"
+  },
+  "keywords": [],
+  "pre-commit": [
+    "lint",
+    "test"
+  ],
+  "dependencies": {
+    "hyperlog-index": "^5.2.0"
+  },
+  "devDependencies": {
+    "tape": "~4.6.2",
+    "standard": "~8.3.0",
+    "pre-commit": "~1.1.3"
+  },
+  "license": "ISC"
+}
